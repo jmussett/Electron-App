@@ -1,7 +1,7 @@
 {
-  "name": "rogueelectron",
+  "name": "electronapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/main.js",
   "author": "James Mussett <jamesmussett@gmail.com>",
   "license": "MIT",
   "scripts": {
