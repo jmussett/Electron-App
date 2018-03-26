@@ -9,9 +9,11 @@
     "build": "webpack-cli --mode development"
   },
   "dependencies": {
+    "@types/pixi.js": "^4.7.2",
     "@types/react": "^16.0.41",
     "@types/react-dom": "^16.0.4",
     "electron": "^1.8.4",
+    "pixi.js": "^4.7.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
