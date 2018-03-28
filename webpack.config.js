@@ -33,17 +33,15 @@ const commonConfig = {
     },
 };
 
-var main = {
+var main = Object.assign({
     target: 'electron-main',
-    entry: { main: './src/main.ts' },
-    ...commonConfig
-};
+    entry: { main: './src/main.ts' }
+}, commonConfig);
 
-var renderer = {
+var renderer = Object.assign({
     target: 'electron-renderer',
     entry: { renderer: './src/renderer.tsx' },
-    plugins: [ new HtmlWebpackPlugin({title: "Electron App"}) ],
-    ...commonConfig
-};
+    plugins: [ new HtmlWebpackPlugin({title: "Electron App"}) ]
+}, commonConfig);
 
 module.exports = [ main, renderer ];
